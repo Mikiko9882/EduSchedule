@@ -1,0 +1,30 @@
+ja:
+  activerecord:
+    models:
+      user: 'ユーザー'
+      test_result: 'テスト結果'
+    attributes:
+      user:
+        password: 'パスワード'
+        password_confirmation: 'パスワード確認'
+        user_name: '名前'
+        avatar: 'アバター'
+        role: '権限'
+        created_at: '作成日時'
+      test_result:
+        test_name: "テスト名"
+        score: "得点"
+        max_score: "満点"
+        achievement_rate: "達成率"
+        grade_and_class: "学年とクラス"
+        user: "氏名"
+        created_at: "作成日時"
+        test_date: "テスト実施日"
+        test_type: "教科名"
+        preparation_time_minutes: "学習時間" 
+        display_preparation_time: "学習時間"
+    enums:
+      user:
+        role:
+          general: '一般'
+          admin: '管理者'
